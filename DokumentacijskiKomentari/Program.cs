@@ -5,6 +5,9 @@ using System.Text;
 
 namespace CSharp.TipoviOperatori
 {
+    /// <summary>
+    /// 
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
