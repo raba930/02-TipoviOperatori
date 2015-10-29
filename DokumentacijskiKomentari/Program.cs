@@ -27,7 +27,16 @@ namespace CSharp.TipoviOperatori
             return broj * broj;
         }
 
-
+        /// <summary>
+        /// Funkcija ljepi dva stringa i vraća broj slova te dvije rijeci koje su joj prosljeđene
+        /// </summary>
+        /// <param name="prva">
+        /// String Prva rijec
+        /// </param>
+        /// <param name="druga">
+        /// String Druga rijec
+        /// </param>
+        /// <returns>vrača broj slova prve i druge rečenice</returns>
         static int DuljinaDvijeRiječi(string prva, string druga)
         {
             return (prva + druga).Length;
